@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+  <metadata>Created by iconfont</metadata>
+  <defs>
+  <font id="iconfont" horiz-adv-x="1024">
+    <font-face
+      font-family="iconfont"
+      font-weight="400"
+      font-stretch="normal"
+      units-per-em="1024"
+      ascent="896"
+      descent="-128"
+    />
+      <missing-glyph />
+      
+      <glyph glyph-name="arrow-right" unicode="&#59203;" d="M593.450667 383.872L360.064 617.386667l45.290667 45.226666 278.613333-278.762666L405.333333 105.386667l-45.226666 45.269333z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="arrow-left" unicode="&#59204;" d="M641.28 617.386667l-45.226667 45.226666-278.634666-278.762666 278.613333-278.485334 45.248 45.269334-233.365333 233.237333z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="paihangbang" unicode="&#58882;" d="M795.927273 30.90101H619.442424V375.078788h176.484849c48.484848 0 88.307071-39.692929 88.30707-88.307071v-167.692929c0-48.484848-39.822222-88.177778-88.30707-88.177778z m0 0M403.135354 30.90101H226.650505c-48.484848 0-88.307071 39.692929-88.307071 88.307071V428.088889c0 48.484848 39.692929 88.307071 88.307071 88.307071h176.484849v-485.49495z m0 0M654.739394 30.90101H367.838384V648.662626c0 48.484848 39.692929 88.307071 88.307071 88.307071h110.286868c48.484848 0 88.307071-39.692929 88.307071-88.307071v-617.761616z m0 0"  horiz-adv-x="1024" />
+      
+    </font>
+  </defs>
+</svg>

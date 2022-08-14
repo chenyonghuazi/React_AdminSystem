@@ -1,13 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
+import {Provider} from 'react-redux'
+import store from './redux/store'
+import './assets/css/common.less'
+import './assets/css/iconfont.css'
 
-import './assets/base.css' //引入全局样式 （上线项目需要按需引入）
-import App from './router/index'
+import App from './router/index' //引入router组件
+import './mock' //引入mockjs接口
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-    <App />
-
+    <Provider store={store}>
+        <App />
+    </Provider>
 
 );

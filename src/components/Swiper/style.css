@@ -1,0 +1,10 @@
+.swiperContainer {
+  --width: 100%;
+}
+.swiperContainer .swiperItem {
+  height: 180px;
+}
+.swiperContainer .swiperItem img {
+  width: 100%;
+  object-fit: cover;
+}

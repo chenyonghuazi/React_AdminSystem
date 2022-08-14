@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .scroll{
+            height: 1500px;
+            background-color: pink;
+        } */
+        .historyBox {
+            width: 400px !important;
+            height: 300px !important;
+            background-color: pink !important;
+            display: none;
+            position: absolute !important;
+            bottom: 0 !important;
+            transform: translateY(-300px);
+            z-index: 99999 !important;
+            color: #333 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="scroll">
+
+    </div> -->
+    <span id="test">test</span>
+    <input type="text">
+    <div class="historyBox">
+        <span style="float:left";>123</span>
+        <div style="height: 100px;">345</div>
+    </div>
+    <script>
+        // const test = document.querySelector('#test');
+        // const clientHeight = document.documentElement.clientHeight
+        // let loadMoreTop;
+        // let timer = null;
+        // let loading = false;
+        // window.addEventListener('scroll',()=>{
+        //     // var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        //     // console.log(scrollTop)
+        //     loadMoreTop = test.getBoundingClientRect().top
+        //     if(clientHeight > loadMoreTop){
+
+        //         if(!loading){
+        //             loading = true;
+        //             test.innerHTML = "Loading....."
+        //             document.querySelector('div').style.backgroundColor = 'green';
+        //             setTimeout(()=>{
+        //                 loading = false;
+        //                 test.innerHTML = "test"
+        //                 document.querySelector('div').style.backgroundColor = 'pink';
+        //             },3000)
+
+        //         }
+        //     }
+        //     console.log(clientHeight)
+        //     console.log(loadMoreTop)
+        // })
+
+        const historyBox = document.querySelector('.historyBox')
+        const input = document.querySelector('input')
+
+        input.addEventListener('focus',()=>{
+            historyBox.style.display = 'block'
+        })
+
+        // input.addEventListener('blur',()=>{
+        //     historyBox.style.display = 'none'
+        // })
+        
+    </script>
+</body>
+
+</html>
