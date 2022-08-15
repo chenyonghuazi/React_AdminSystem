@@ -1,13 +1,14 @@
 import React from 'react'
 import { Swiper, Toast } from 'antd-mobile'
 import './style.less'
-import bannerImg1 from '../../assets/images/baner1.png'
-import bannerImg2 from '../../assets/images/baner2.jpg'
-import bannerImg3 from '../../assets/images/baner3.jpg'
+// import bannerImg1 from '../../assets/images/baner1.png'
+// import bannerImg2 from '../../assets/images/baner2.jpg'
+// import bannerImg3 from '../../assets/images/baner3.jpg'
 
 export default function SwiperObj(props) {
 
-    const bannerIamges = props.imgs ? props.imgs: [bannerImg1, bannerImg2, bannerImg3]
+    // const bannerIamges = props.imgs ? props.imgs: [bannerImg1, bannerImg2, bannerImg3]
+    const bannerIamges = props.imgs ? props.imgs: ['https://staticg.sportskeeda.com/editor/2022/08/b8ddb-16604149746399-1920.jpg', 'https://staticg.sportskeeda.com/editor/2022/08/b8ddb-16604149746399-1920.jpg', 'https://staticg.sportskeeda.com/editor/2022/08/b8ddb-16604149746399-1920.jpg']
 
     const items = bannerIamges.map((bannerObj,index) => {
             return (

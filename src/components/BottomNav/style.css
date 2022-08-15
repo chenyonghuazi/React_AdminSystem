@@ -19,6 +19,11 @@
   display: block;
   font-size: 20px;
 }
+.nav-footer ul li svg {
+  display: block;
+  font-size: 20px;
+  margin: auto;
+}
 .nav-footer ul li span {
   font-size: 12px;
 }

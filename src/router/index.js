@@ -13,11 +13,11 @@ import Login from '../pages/Login'
 import Layout from '../pages/Main/Layout'
 
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 const router = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <Routes>
 
@@ -37,7 +37,7 @@ const router = () => {
 
             </Routes>
 
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.less'
 import { NavLink } from 'react-router-dom'
+import {ContentOutline} from 'antd-mobile-icons'
 
 export default function BottomNav() {
     return (
@@ -8,27 +9,27 @@ export default function BottomNav() {
             <ul>
                 <li>
                     <NavLink to='/'>
-                        <i className='iconfont icon-paihangbang'></i>
+                        <ContentOutline />
                         首页
                     </NavLink>
 
                 </li>
                 <li>
                     <NavLink to='/life'>
-                        <i className='iconfont icon-paihangbang'></i>
+                        <ContentOutline />
                         生活
                     </NavLink>
 
                 </li>
                 <li>
                     <NavLink to='/shop'>
-                        <i className='iconfont icon-paihangbang'></i>
+                        <ContentOutline />
                         商品
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to='/user'>
-                        <i className='iconfont icon-paihangbang'></i>
+                        <ContentOutline />
                         个人
                     </NavLink>
                 </li>
